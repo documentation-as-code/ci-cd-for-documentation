@@ -26,8 +26,8 @@ jobs:
             token: ${{ github.token }}
 
       # Runs the website build
-      - run: wget https://github.com/marp-team/marp-cli/releases/download/v0.21.1/marp-cli-v$MARP_VERSION-linux.tar.gz -O marp.tar.gz && tar xvf marp.tar.gz -C /usr/local/bin
-      - run: mkdir site && marp README.md -o site/README.html
+      - run: sudo  wget -qO- https://github.com/marp-team/marp-cli/releases/download/v0.21.1/marp-cli-v$MARP_VERSION-linux.tar.gz | tar xvz
+      - run: chmod +x marp && export PATH=$PATH:$(pwd) &&  mkdir site && marp README.md -o site/index.html
 
       #https://github.com/marketplace/actions/deploy-to-github-pages
       - name: Deploy to GitHub Pages
