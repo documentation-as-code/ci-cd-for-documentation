@@ -1,0 +1,35 @@
+# The name of the workflow as it will appear in the Actions tab 
+# of the GitHub repository.
+name: build-web-site
+
+# Run this workflow every time a new commit pushed to your repository
+on: push
+
+jobs:
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
+  build-site:
+    #Name of the job
+    name: Build github pages
+
+    #Set the type of machine to run on
+    runs-on: ubuntu-latest
+
+    steps:
+       # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2 
+
+      # Runs the website build
+      - run: wget https://github.com/marp-team/marp-cli/releases/download/v0.21.1/marp-cli-v${MARP_VERSION}-linux.tar.gz -O marp.tar.gz && tar xvf marp.tar.gz -C /usr/local/bin
+      - run: mkdir site && marp README.md -o site/README.html
+
+      #https://github.com/marketplace/actions/deploy-to-github-pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with: # Set the secret as an input
+          GITHUB_TOKEN: ${{ secrets.DEPLOYMENT_ACCESS_KEY }}
+          BRANCH: gh_pages
+          FOLDER: site
+
+

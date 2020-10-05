@@ -1,2 +1,9 @@
-# addo-daac
-All Day DevOps - Doc As Code
+---
+marp: true
+theme: default
+paginate: true
+footer: 'olivier.jacques@dxc.com && laurent.gil@dxc.com'
+header: 'All days DevOps'
+---
+
+# Documentation as Code
