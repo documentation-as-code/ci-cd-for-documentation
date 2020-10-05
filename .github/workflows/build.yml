@@ -14,14 +14,19 @@ jobs:
 
     #Set the type of machine to run on
     runs-on: ubuntu-latest
-
+    env: 
+        MARP_VERSION: 0.21.1
     steps:
        # Checks out a copy of your repository on the ubuntu-latest machine
+       # https://github.com/actions/checkout
       - name: Checkout code
         uses: actions/checkout@v2 
+        with:
+            clean: true
+            token: ${{ github.token }}
 
       # Runs the website build
-      - run: wget https://github.com/marp-team/marp-cli/releases/download/v0.21.1/marp-cli-v${MARP_VERSION}-linux.tar.gz -O marp.tar.gz && tar xvf marp.tar.gz -C /usr/local/bin
+      - run: wget https://github.com/marp-team/marp-cli/releases/download/v0.21.1/marp-cli-v$MARP_VERSION-linux.tar.gz -O marp.tar.gz && tar xvf marp.tar.gz -C /usr/local/bin
       - run: mkdir site && marp README.md -o site/README.html
 
       #https://github.com/marketplace/actions/deploy-to-github-pages
