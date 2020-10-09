@@ -1,0 +1,25 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/debian-9-git
+{
+    "name": "Marp",
+    "service": "container-doc",
+    // Use 'settings' to set *default* container specific settings.json values on container create.
+    // You can edit these settings after create using File > Preferences > Settings > Remote.
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "markdown.marp.enableHtml": true,
+        "markdown.marp.themes": [
+            "slide/theme.css"
+        ],
+        "cSpell.language": ",en"
+    },
+    // Use 'appPort' to create a container with published ports. If the port isn't working, be sure
+    // your server accepts connections from all interfaces (0.0.0.0 or '*'), not just localhost.
+    // "appPort": [],
+    // Add the IDs of extensions you want installed when the container is created in the array below.
+    "extensions": [
+        "marp-team.marp-vscode",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}
