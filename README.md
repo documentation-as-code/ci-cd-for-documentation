@@ -1,9 +1,13 @@
----
-marp: true
-theme: default
-paginate: true
-footer: 'olivier.jacques@dxc.com && laurent.gil@dxc.com'
-header: 'All days DevOps'
----
+# CI and CD for Documentation
 
-# Documentation as Code
+This is the demo repository for All Day DevOps 2020 session on "CI and CD for documentation".
+
+## Brainstorm
+
+Brainstorm on what will be the content of the presentation:
+
+![Brainstorm](brainstorm.drawio.png)
+
+## Slides
+
+https://angegar.github.io/addo-daac/
