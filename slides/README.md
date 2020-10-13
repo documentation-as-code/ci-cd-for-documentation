@@ -24,11 +24,15 @@ footer {
 
 ---
 <!--backgroundImage: url('https://github.com/angegar/addo-daac/raw/main/slides/simple.jpg')-->
-# Why CI and CD for documentation?
+# Why CI and CD for documentation ?
 
 * Documentation next to the code
+  * Link code version and documentation version
 * Hyper fast browsing (static web sites / no database)
-* Test your doc
+* Test / lint your doc
+* Open / Inner source documentation
+  * Decrease support team workload
+  * Battle test your documentation
 
 ---
 
@@ -84,7 +88,7 @@ Use your favorite code editor.
 * [marp](https://marp.app/): slides as code, mostly markdown
 
 ---
-# Authoring
+# Hosting
 
 ## GIT Hosting
 GitHub, GitLab, Bickbucket
@@ -106,6 +110,8 @@ GitHub, GitLab, Bickbucket
 
 ## Spelling
 
+## Lint
+- [GitHub super-linter](https://github.com/github/super-linter)
 ---
 # Testing (CI)
 
@@ -122,3 +128,5 @@ GitHub, GitLab, Bickbucket
 ---
 
 # Thank you! 🙏
+
+test linter
