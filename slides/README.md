@@ -128,5 +128,3 @@ GitHub, GitLab, Bickbucket
 ---
 
 # Thank you! 🙏
-
-test linter
