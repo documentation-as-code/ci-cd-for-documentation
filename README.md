@@ -13,4 +13,4 @@ Brainstorm on what will be the content of the presentation:
 
 ## Slides
 
-https://angegar.github.io/addo-daac/
+https://documentation-as-code.github.io/ci-cd-for-documentation/
