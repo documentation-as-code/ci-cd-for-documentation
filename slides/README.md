@@ -1,38 +1,37 @@
 ---
 marp: true
 theme: default
+style: |
+  header {
+    position: absolute;
+    left: 50%;
+    top: 33px;
+  }
+  section header a { color: white;}
 paginate: true
-footer: '[🐤 @ojacques2](https://twitter.com/ojacques2) & laurent.gil@dxc.com'
-header: 'All Day DevOps 2020'
+header: '[🐤 @ojacques2](https://twitter.com/ojacques2) & laurent.gil@dxc.com'
 ---
 
-<style>
-header {
-  position: absolute;
-  left: 100px;
-}
-footer {
-  position: absolute;
-  left: 900px;
-  height: 35px;
-}
-</style>
+<!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/title.jpg')-->
+<br/><br/><br/><br/>
 
-<!--backgroundImage: url('https://github.com/angegar/addo-daac/raw/main/slides/title.jpg')-->
-# CI and CD for documentation
-# ...in 2020
+## CI and CD for documentation
+...in 2020
 
 ---
-<!--backgroundImage: url('https://github.com/angegar/addo-daac/raw/main/slides/simple.jpg')-->
-# Why CI and CD for documentation ?
+<!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/simple.jpg')-->
+
+Our story and how we solved our problems
+
+# 🏰🦄🤴👸🐴👻⚔
+
+---
+
+# Why CI and CD for documentation?
 
 * Documentation next to the code
-  * Link code version and documentation version
 * Hyper fast browsing (static web sites / no database)
-* Test / lint your doc
-* Open / Inner source documentation
-  * Decrease support team workload
-  * Battle test your documentation
+* Test your doc
 
 ---
 
@@ -88,7 +87,7 @@ Use your favorite code editor.
 * [marp](https://marp.app/): slides as code, mostly markdown
 
 ---
-# Hosting
+# Authoring
 
 ## GIT Hosting
 GitHub, GitLab, Bickbucket
@@ -110,17 +109,19 @@ GitHub, GitLab, Bickbucket
 
 ## Spelling
 
-## Lint
-- [GitHub super-linter](https://github.com/github/super-linter)
 ---
 # Testing (CI)
 
 ## 404 links
 
+https://github.com/tcort/markdown-link-check
+
 ---
 # Testing (CI)
 
 ## Style / voice
+
+https://github.com/errata-ai/vale
 
 ---
 # Publishing (CD)
