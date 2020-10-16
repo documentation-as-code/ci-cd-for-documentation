@@ -12,8 +12,10 @@ Marp
 MkDocs
 Netlify
 PlantUML
+backgroundImage
 cd
 ci
+dxc
 gil
 github
 htp
@@ -23,6 +25,10 @@ jacques
 jpg
 laurent
 markdownlint
+marp
+mkdocs
+ojacques
 olivier
+px
 url
 vscode
