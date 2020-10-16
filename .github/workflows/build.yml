@@ -33,6 +33,7 @@ jobs:
           VALIDATE_MARKDOWN: true
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MARKDOWN_CONFIG_FILE: .markdown-lint.json
 
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided

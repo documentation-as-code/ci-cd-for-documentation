@@ -1,7 +1,8 @@
+# CI and CD for Documentation
+
 ![build-web-site](https://github.com/documentation-as-code/addo-daac/workflows/build-web-site/badge.svg)
 
-
-# CI and CD for Documentation
+## Purpose
 
 This is the demo repository for All Day DevOps 2020 session on "CI and CD for documentation".
 
