@@ -83,10 +83,10 @@ Use your favorite code editor.
 
 ## Pick a tool
 
-* [jekyll](https://jekyllrb.com/) 🤐
-* [mkdocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
-* [hugo](https://gohugo.io/): powerful, blazing fast
-* [marp](https://marp.app/): slides as code, mostly markdown
+* [Jekyll](https://jekyllrb.com/) 🤐
+* [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
+* [Hugo](https://gohugo.io/): powerful, blazing fast
+* [Marp](https://marp.app/): slides as code, mostly markdown
 
 ---
 # Orchestrating
@@ -107,14 +107,14 @@ Use your favorite code editor.
 
 ## 404 links
 
-[https://github.com/tcort/markdown-link-check](https://github.com/tcort/markdown-link-check)
+[markdown-link-check](https://github.com/tcort/markdown-link-check)
 
 ---
 # CI: Testing (3)
 
 ## Style / voice
 
-[https://github.com/errata-ai/vale](https://github.com/errata-ai/vale)
+[Vale](https://github.com/errata-ai/vale)
 
 ---
 # Publishing (CD)
