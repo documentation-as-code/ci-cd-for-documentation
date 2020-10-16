@@ -14,7 +14,6 @@ header: '[🐤 @ojacques2](https://twitter.com/ojacques2) & laurent.gil@dxc.com'
 
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/title.jpg')-->
 <br/><br/><br/><br/>
-
 ## CI and CD for documentation
 ...in 2020
 
@@ -99,23 +98,23 @@ Use your favorite code editor.
 * Azure DevOps
 
 ---
-# Testing (CI)
+# CI: Testing (1)
 
 ## Spelling
 
 ---
-# Testing (CI)
+# CI: Testing (2)
 
 ## 404 links
 
-https://github.com/tcort/markdown-link-check
+[https://github.com/tcort/markdown-link-check](https://github.com/tcort/markdown-link-check)
 
 ---
-# Testing (CI)
+# CI: Testing (3)
 
 ## Style / voice
 
-https://github.com/errata-ai/vale
+[https://github.com/errata-ai/vale](https://github.com/errata-ai/vale)
 
 ---
 # Publishing (CD)
