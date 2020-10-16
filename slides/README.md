@@ -13,7 +13,11 @@ header: '[🐤 @ojacques2](https://twitter.com/ojacques2) & laurent.gil@dxc.com'
 ---
 
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/title.jpg')-->
-<br/><br/><br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## CI and CD for documentation
 ...in 2020
 
