@@ -58,7 +58,7 @@ Use your favorite code editor.
 ---
 
 ![bg left 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
-# Authoring
+# Authoring (1)
 
 ## Pimp your editor with extensions
 
@@ -70,7 +70,7 @@ Use your favorite code editor.
 ---
 ![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/codespaces.jpg)
 
-# Authoring
+# Authoring (2)
 
 ## GitHub CodeSpaces or GitPod
 
@@ -80,7 +80,7 @@ Use your favorite code editor.
   `git reset origin/main --hard`
 
 ---
-# Authoring
+# Authoring (3)
 
 ## Pick a tool
 
@@ -88,15 +88,6 @@ Use your favorite code editor.
 * [mkdocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
 * [hugo](https://gohugo.io/): powerful, blazing fast
 * [marp](https://marp.app/): slides as code, mostly markdown
-
----
-# Authoring
-
-## GIT Hosting
-GitHub, GitLab, Bickbucket
-
-## Web hosting
-[GitHub pages](https://pages.github.com/), [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/), [Netlify](https://www.netlify.com/), an AWS S3 bucket, ...
 
 ---
 # Orchestrating
@@ -129,8 +120,12 @@ https://github.com/errata-ai/vale
 ---
 # Publishing (CD)
 
+## GIT Hosting
+GitHub, GitLab, Bickbucket
+
+## Web hosting
+[GitHub pages](https://pages.github.com/), [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/), [Netlify](https://www.netlify.com/), an AWS S3 bucket, ...
+
 ---
 
 # Thank you! 🙏
-
-sdfsdf
