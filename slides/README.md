@@ -43,10 +43,10 @@ Microsoft uses "Documentation as code" (and many others)
 # Result
 (mkdocs)
 
-![bg center 60%](https://github.com/angegar/addo-daac/raw/main/slides/doc-site.jpg)
+![bg center 60%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/doc-site.jpg)
 
 ---
-![bg right 90%](https://github.com/angegar/addo-daac/raw/main/slides/vscode.jpg)
+![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/vscode.jpg)
 # Authoring
 
 This is (mostly) markdown:
@@ -65,7 +65,7 @@ Use your favorite code editor.
 * [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) (for slides)
 
 ---
-![bg right 90%](https://github.com/angegar/addo-daac/raw/main/slides/codespaces.jpg)
+![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/codespaces.jpg)
 
 # Authoring
 
