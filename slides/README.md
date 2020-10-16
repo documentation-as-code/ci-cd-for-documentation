@@ -31,7 +31,10 @@ Our story and how we solved our problems
 
 * Documentation next to the code
 * Hyper fast browsing (static web sites / no database)
-* Test your doc
+* Test / lint your doc
+* Open / Inner source documentation
+  * Decrease effort
+  * Battle test your documentation
 
 ---
 
@@ -129,3 +132,5 @@ https://github.com/errata-ai/vale
 ---
 
 # Thank you! 🙏
+
+sdfsdf
