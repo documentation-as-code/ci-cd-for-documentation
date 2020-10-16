@@ -14,4 +14,6 @@ Brainstorm on what will be the content of the presentation:
 
 ## Slides
 
-https://documentation-as-code.github.io/ci-cd-for-documentation/
+[https://documentation-as-code.github.io/ci-cd-for-documentation/](https://documentation-as-code.github.io/ci-cd-for-documentation/)
+
+See also [Marp documentation](https://marpit.marp.app/).
