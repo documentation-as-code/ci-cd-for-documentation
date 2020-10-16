@@ -31,7 +31,7 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_MARKDOWN: true
-          DEFAULT_BRANCH: ${{ github.ref }}
+          DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # Set the job key. The key is displayed as the job name
