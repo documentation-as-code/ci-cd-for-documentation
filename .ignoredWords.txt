@@ -24,6 +24,7 @@ io
 jacques
 jpg
 laurent
+linter
 markdownlint
 marp
 mkdocs
