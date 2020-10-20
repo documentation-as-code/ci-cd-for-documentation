@@ -105,12 +105,11 @@ Use your favorite code editor.
 
 ## Linter
 
-- [github super-linter](https://github.com/github/super-linter)
-
+* [github super-linter](https://github.com/github/super-linter)
 
 ## Spelling
 
-- [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
+* [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 
 ---
 # CI: Testing (2)
