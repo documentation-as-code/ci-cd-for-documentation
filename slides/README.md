@@ -29,7 +29,6 @@ Our story and how we solved our problems
 # 🏰🦄🤴👸🐴👻⚔
 
 ---
-
 # Why CI and CD for documentation?
 
 * Documentation next to the code
@@ -104,7 +103,14 @@ Use your favorite code editor.
 ---
 # CI: Testing (1)
 
+## Linter
+
+- [github super-linter](https://github.com/github/super-linter)
+
+
 ## Spelling
+
+- [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 
 ---
 # CI: Testing (2)
