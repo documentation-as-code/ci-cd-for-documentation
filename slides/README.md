@@ -11,7 +11,6 @@ style: |
 paginate: true
 header: '[🐤 @ojacques2](https://twitter.com/ojacques2) & laurent.gil@dxc.com'
 ---
-
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/title.jpg')-->
 <br/>
 <br/>
@@ -39,12 +38,10 @@ Our story and how we solved our problems
   * Battle test your documentation
 
 ---
-
 # 🤯
 Microsoft uses "Documentation as code" (and many others)
 
 ---
-
 # Result
 (mkdocs)
 
@@ -58,7 +55,6 @@ This is (mostly) markdown:
 Use your favorite code editor.
 
 ---
-
 ![bg left 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
 # Authoring (1)
 
@@ -135,5 +131,4 @@ GitHub, GitLab, Bickbucket
 [GitHub pages](https://pages.github.com/), [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/), [Netlify](https://www.netlify.com/), an AWS S3 bucket, ...
 
 ---
-
 # Thank you! 🙏
