@@ -17,7 +17,7 @@ header: '[🐤 @ojacques2](https://twitter.com/ojacques2) & laurent.gil@dxc.com'
 <br/>
 <br/>
 
-## CI and CD for documentation
+# CI and CD for documentation
 ...in 2020
 
 ---
