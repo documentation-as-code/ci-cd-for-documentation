@@ -112,10 +112,10 @@ Use your favorite code editor.
 
 ## Pick a tool
 
-- [jekyll](https://jekyllrb.com/) 🤐
-- [mkdocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
-- [hugo](https://gohugo.io/): powerful, blazing fast
-- [marp](https://marp.app/): slides as code, mostly markdown
+- [Jekyll](https://jekyllrb.com/) 🤐
+- [Mkdocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
+- [Hugo](https://gohugo.io/): powerful, blazing fast
+- [Marp](https://marp.app/): slides as code, mostly markdown
 
 ---
 # Orchestrating
