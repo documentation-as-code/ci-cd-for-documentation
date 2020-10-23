@@ -64,7 +64,7 @@ Because:
 
 ---
 
-# CI and CD for documentation
+# CI and CD
 
 CI
 
