@@ -10,7 +10,7 @@ This is the demo repository for All Day DevOps 2020 session on "CI and CD for do
 
 Brainstorm on what will be the content of the presentation:
 
-![Brainstorm](brainstorm.drawio.png)
+[![Brainstorm](brainstorm.drawio.png)](https://app.diagrams.net/?sync=none#Hdocumentation-as-code%2Fci-cd-for-documentation%2Fmain%2Fbrainstorm.drawio.png)
 
 ## Slides
 

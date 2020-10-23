@@ -28,24 +28,54 @@ Our story and how we solved our problems
 # 🏰🦄🤴👸🐴👻⚔
 
 ---
-# Why CI and CD for documentation?
 
-* Documentation next to the code
-* Hyper fast browsing (static web sites / no database)
-* Test / lint your doc
-* Open / Inner source documentation
-  * Decrease effort
-  * Battle test your documentation
+# We do a lot of documentation
+
+(...as code)
+
+---
+
+![bg center 60%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/doc-site.jpg)
 
 ---
 # 🤯
-Microsoft uses "Documentation as code" (and many others)
+
+## Microsoft, GitHub, GitLab, AWS all use "Documentation as code"
+
+Because:
+
+- Documentation is next to the code
+- Lightning fast to browse
+- Easier to contribute to / keep up-to-date
+- Engineer documentation
+- Battle test documentation
 
 ---
-# Result
-(mkdocs)
 
-![bg center 60%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/doc-site.jpg)
+# Our challenges
+
+- Common look & feel
+- Common voice
+- Lowering the bar for Tech Writers
+- DRY: Don't Repeat Yourself
+- Diagrams
+- Broken links
+- Publishing
+
+---
+
+# CI and CD for documentation
+
+CI
+
+- Spell checking
+- Check for approved acronyms / custom dictionary
+- One voice
+- Periodically check for 404 links
+
+CD
+
+- Automate publishing
 
 ---
 ![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/vscode.jpg)
@@ -70,10 +100,10 @@ Use your favorite code editor.
 
 # Authoring (2)
 
-## GitHub CodeSpaces or GitPod
+## GitHub Codespaces or GitPod
 
-* Edit directly from the browser
-* Make it easy for tech writers:
+- Edit directly from the browser
+- Make it easy for tech writers:
   no `git clone/branch/push`
   `git reset origin/main --hard`
 
@@ -82,10 +112,10 @@ Use your favorite code editor.
 
 ## Pick a tool
 
-* [Jekyll](https://jekyllrb.com/) 🤐
-* [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
-* [Hugo](https://gohugo.io/): powerful, blazing fast
-* [Marp](https://marp.app/): slides as code, mostly markdown
+- [jekyll](https://jekyllrb.com/) 🤐
+- [mkdocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
+- [hugo](https://gohugo.io/): powerful, blazing fast
+- [marp](https://marp.app/): slides as code, mostly markdown
 
 ---
 # Orchestrating
