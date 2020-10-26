@@ -129,23 +129,36 @@ Use your favorite code editor.
 ---
 # CI: Testing (1)
 
-## Linter
+## CLI linter
 
 * [github super-linter](https://github.com/github/super-linter)
+* [markdownlint](https://github.com/DavidAnson/markdownlint)
+![bg right 90%](linter.png)
 
-## Spelling
+## Editor linter
+
+* [VS Code markdownlint extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+  
+---
+# CI: Testing(2)
+## CLi spell checker
 
 * [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
+* [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
+
+## Editor spell checker
+
+* [VS Code code-spell-checker extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 ---
-# CI: Testing (2)
+# CI: Testing (3)
 
 ## 404 links
 
 [markdown-link-check](https://github.com/tcort/markdown-link-check)
 
 ---
-# CI: Testing (3)
+# CI: Testing (4)
 
 ## Style / voice
 
