@@ -1,4 +1,5 @@
 Bickbucket
+CLI
 Codespaces
 DXC
 DevOps
@@ -16,6 +17,7 @@ PlantUML
 backgroundImage
 cd
 ci
+cli
 dxc
 gil
 github

@@ -141,7 +141,8 @@ Use your favorite code editor.
   
 ---
 # CI: Testing(2)
-## CLi spell checker
+
+## CLI spell checker
 
 * [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 * [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
