@@ -133,7 +133,7 @@ Use your favorite code editor.
 
 * [github super-linter](https://github.com/github/super-linter)
 * [markdownlint](https://github.com/DavidAnson/markdownlint)
-![bg right 90%](linter.png)
+![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/linter.png)
 
 ## Editor linter
 
