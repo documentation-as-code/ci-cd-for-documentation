@@ -35,14 +35,14 @@ Our story and how we solved our problems
 
 ---
 
-![bg 100% right](https://github.com/documentation-as-code/service-catalog-hugo.gif)
+![bg 100% right](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-catalog-hugo.gif)
 
 # Service catalog
 With [Hugo](https://gohugo.io/)
 
 ---
 
-![bg 100% left](https://github.com/documentation-as-code/service-documentation-mkdocs.gif)
+![bg 100% left](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-documentation-mkdocs.gif)
 
 # Service documentation
 With [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/)
