@@ -27,7 +27,9 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter@v3
+        #uses: github/super-linter@v3.13.1
+        # Workaround for https://github.com/github/super-linter/issues/938
+        uses: docker://github/super-linter:v3.13.1
         env:
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_MARKDOWN: true
