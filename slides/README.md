@@ -17,8 +17,8 @@ header: '[🐤 @ojacques2](https://twitter.com/ojacques2) & laurent.gil@dxc.com'
 <br/>
 <br/>
 
-# CI and CD for documentation
-...in 2020
+# CI and CD
+## For documentation
 
 ---
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/simple.jpg')-->
@@ -31,7 +31,7 @@ Our story and how we solved our problems
 
 # We do a lot of documentation
 
-(...as code)
+## (as code)
 
 ---
 
@@ -78,7 +78,8 @@ Because:
 
 ---
 
-# CI and CD
+![bg right 80%](ci-cd-for-doc.gif)
+# CI and CD for documentation
 
 CI
 
@@ -187,10 +188,12 @@ Use your favorite code editor.
 # Publishing (CD)
 
 ## GIT Hosting
-GitHub, GitLab, Bickbucket
+
+GitHub, GitLab, Bitbucket
 
 ## Web hosting
-[GitHub pages](https://pages.github.com/), [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/), [Netlify](https://www.netlify.com/), an AWS S3 bucket, ...
+
+[GitHub pages](https://pages.github.com/), [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/), [Netlify](https://www.netlify.com/), an AWS S3 bucket.
 
 ---
-# Thank you! 🙏
+# Thank you 🙏

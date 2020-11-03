@@ -1,6 +1,6 @@
 angegar
 backgroundImage
-Bickbucket
+Bitbucket
 cd
 ci
 cli

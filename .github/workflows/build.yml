@@ -7,7 +7,7 @@ on: push
 
 jobs:
   lint:
-    name: Lint Code Base
+    name: Markdown Lint
     # Set the agent to run on
     runs-on: ubuntu-latest
     ##################
@@ -38,7 +38,7 @@ jobs:
           MARKDOWN_CONFIG_FILE: .markdown-lint.json
     
   linkcheck:
-    name: linkcheck
+    name: Links
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -46,12 +46,27 @@ jobs:
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
 
   spellCheck:
-    name: Spellcheck
+    name: Spelling
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - uses: rojopolis/spellcheck-github-actions@0.5.0
       name: Spellcheck
+
+  StyleCheck:
+    name: Style and Voice
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Style check
+      uses: errata-ai/vale-action@v1.3.0
+      with:
+        styles: |
+          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
+          https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
