@@ -58,7 +58,7 @@ With [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.gith
 
 Because:
 
-- Documentation is next to the code
+- Documentation next to the code
 - Lightning fast to browse
 - Easier to contribute to / keep up-to-date
 - Engineer documentation
@@ -78,7 +78,8 @@ Because:
 
 ---
 
-![bg right 80%](ci-cd-for-doc.gif)
+![bg right 80%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/ci-cd-for-doc.gif)
+
 # CI and CD for documentation
 
 CI
@@ -96,7 +97,7 @@ CD
 ![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/vscode.jpg)
 # Authoring
 
-This is (mostly) markdown:
+Leverage `markdown`:
 Use your favorite code editor.
 
 ---
@@ -130,7 +131,7 @@ Use your favorite code editor.
 - [Jekyll](https://jekyllrb.com/) 🤐
 - [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
 - [Hugo](https://gohugo.io/): powerful, blazing fast
-- [Marp](https://marp.app/): slides as code, mostly markdown
+- [Marp](https://marp.app/): slides as code in markdown
 
 ---
 # Orchestrating
@@ -178,7 +179,12 @@ Use your favorite code editor.
 [markdown-link-check](https://github.com/tcort/markdown-link-check)
 
 ---
-# CI: Style checker
+
+![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/style-vale.jpg)
+
+# CI: Testing (4)
+
+## Style / voice
 
 [Vale](https://github.com/errata-ai/vale)
 
