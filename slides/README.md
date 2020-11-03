@@ -157,6 +157,7 @@ Use your favorite code editor.
 # CI: Spell Checker
 
 ## CLI spell checker
+
 ![bg left 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck.png)
 
 - [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
@@ -168,6 +169,8 @@ Use your favorite code editor.
 
 ---
 # CI: Link checker
+
+![bg right 95%](markdown-link-check.jpg)
 
 ## 404 links
 
