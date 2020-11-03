@@ -55,6 +55,7 @@ jobs:
 
   StyleCheck:
     name: Style Check
+    runs-on: ubuntu-latest
     steps:
     - uses: errata-ai/vale-action@v1.3.0
     - with:
