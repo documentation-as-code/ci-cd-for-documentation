@@ -171,7 +171,7 @@ Use your favorite code editor.
 ---
 # CI: Testing (3)
 
-![bg right 95%](markdown-link-check.jpg)
+![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
 
 ## 404 links
 
