@@ -53,6 +53,13 @@ jobs:
     - uses: rojopolis/spellcheck-github-actions@0.5.0
       name: Spellcheck
 
+  StyleCheck:
+    name: Style Check
+    uses: errata-ai/vale-action@v1.3.0
+    with:
+      # The files to lint: "all" or "<some_folder>".
+      files: README.md,slides/README.md 
+
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
   build-deploy:
