@@ -57,14 +57,18 @@ jobs:
     name: Style Check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: errata-ai/vale-action@v1.3.0
-        - with:
-          styles: |
-            https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
-            https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
-          # The files to lint: "all" or "<some_folder>".
-          files: README.md,slides/README.md 
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Style check
+      uses: errata-ai/vale-action@v1.3.0
+      with:
+        styles: |
+          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
+          https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+        # The files to lint: "all" or "<some_folder>".
+        files: README.md,slides/README.md 
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
