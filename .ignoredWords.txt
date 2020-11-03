@@ -1,3 +1,4 @@
+angegar
 backgroundImage
 Bickbucket
 cd
@@ -16,7 +17,6 @@ GitPod
 htp
 https
 Hugo
-Hugo
 io
 jacques
 Jekyll
@@ -29,7 +29,6 @@ markdownlint
 marp
 Marp
 mkdocs
-MkDocs
 MkDocs
 Netlify
 ojacques
