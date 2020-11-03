@@ -55,7 +55,7 @@ jobs:
 
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  build-site:
+  build-deploy:
     #Name of the job
     name: Build github pages
 
@@ -80,6 +80,11 @@ jobs:
       # Runs the website build
       - run: sudo  wget -qO- https://github.com/marp-team/marp-cli/releases/download/v0.21.1/marp-cli-v$MARP_VERSION-linux.tar.gz | tar xvz
       - run: chmod +x marp && export PATH=$PATH:$(pwd) &&  mkdir site && marp slides/README.md -o site/index.html
+      # https://github.com/actions/upload-artifact
+      - uses: actions/upload-artifact@v2
+        with:
+          name: slides
+          path: site/index.html
 
       #https://github.com/marketplace/actions/deploy-to-github-pages
       - name: Deploy to GitHub Pages
@@ -88,5 +93,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.DEPLOYMENT_ACCESS_KEY }}
           BRANCH: gh_pages
           FOLDER: site
-
-
