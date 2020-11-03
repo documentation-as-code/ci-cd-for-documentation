@@ -78,6 +78,7 @@ Because:
 
 ---
 
+![bg right 80%](ci-cd-for-doc.gif)
 # CI and CD for documentation
 
 CI

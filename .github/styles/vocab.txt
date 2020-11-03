@@ -1,5 +1,8 @@
+AWS
 bg
 Codespaces
+DRY
+GIT
 GitHub
 github
 markdownlint
