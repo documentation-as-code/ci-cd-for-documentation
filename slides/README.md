@@ -35,6 +35,20 @@ Our story and how we solved our problems
 
 ---
 
+![bg 100% right](https://github.com/documentation-as-code/service-catalog-hugo.gif)
+
+# Service catalog
+With [Hugo](https://gohugo.io/)
+
+---
+
+![bg 100% left](https://github.com/documentation-as-code/service-documentation-mkdocs.gif)
+
+# Service documentation
+With [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/)
+
+---
+
 ![bg center 60%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/doc-site.jpg)
 
 ---
@@ -90,10 +104,10 @@ Use your favorite code editor.
 
 ## Pimp your editor with extensions
 
-* [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (for syntax)
-* [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) (for drawings)
-* [PlantUML](https://github.com/qjebbs/vscode-plantuml) (for diagrams as code)
-* [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) (for slides)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (for syntax)
+- [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) (for drawings)
+- [PlantUML](https://github.com/qjebbs/vscode-plantuml) (for diagrams as code)
+- [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) (for slides)
 
 ---
 ![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/codespaces.jpg)
@@ -113,43 +127,43 @@ Use your favorite code editor.
 ## Pick a tool
 
 - [Jekyll](https://jekyllrb.com/) 🤐
-- [Mkdocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
+- [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/): closest to plain markdown, great for tech docs
 - [Hugo](https://gohugo.io/): powerful, blazing fast
 - [Marp](https://marp.app/): slides as code, mostly markdown
 
 ---
 # Orchestrating
 
-* GitHub Actions
-* GitLab CI
-* Jenkins (`Jenkinsfile`)
-* AWS code pipeline
-* Azure DevOps
+- GitHub Actions
+- GitLab CI
+- Jenkins (`Jenkinsfile`)
+- AWS code pipeline
+- Azure DevOps
 
 ---
 # CI: Testing (1)
 
 ## CLI linter
 
-* [github super-linter](https://github.com/github/super-linter)
-* [markdownlint](https://github.com/DavidAnson/markdownlint)
+- [github super-linter](https://github.com/github/super-linter)
+- [markdownlint](https://github.com/DavidAnson/markdownlint)
 ![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/linter.png)
 
 ## Editor linter
 
-* [VS Code markdownlint extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [VS Code markdownlint extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
   
 ---
 # CI: Testing(2)
 
 ## CLI spell checker
 ![bg left 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck.png)
-* [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
-* [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
+- [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
+- [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
 
 ## Editor spell checker
 
-* [VS Code code-spell-checker extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [VS Code code-spell-checker extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 ---
 # CI: Testing (3)
