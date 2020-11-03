@@ -79,4 +79,9 @@ jobs:
           BRANCH: gh_pages
           FOLDER: site
 
-
+  release:
+    # https://github.com/actions/upload-artifact
+    - uses: actions/upload-artifact@v2
+      with:
+        name: slides
+        path: site/index.html
