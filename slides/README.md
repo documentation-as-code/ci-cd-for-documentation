@@ -158,6 +158,7 @@ Use your favorite code editor.
 
 ## CLI spell checker
 ![bg left 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck.png)
+
 - [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 - [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
 
