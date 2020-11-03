@@ -55,13 +55,14 @@ jobs:
 
   StyleCheck:
     name: Style Check
-    uses: errata-ai/vale-action@v1.3.0
-    with:
-      styles: |
-        https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
-        https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
-      # The files to lint: "all" or "<some_folder>".
-      files: README.md,slides/README.md 
+    steps:
+    - uses: errata-ai/vale-action@v1.3.0
+    - with:
+        styles: |
+          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
+          https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+        # The files to lint: "all" or "<some_folder>".
+        files: README.md,slides/README.md 
 
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
