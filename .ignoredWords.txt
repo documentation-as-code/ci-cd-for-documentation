@@ -44,6 +44,8 @@ Netlify
 ojacques
 olivier
 PlantUML
+PNG
+PPTX
 px
 shortcodes
 url
