@@ -160,8 +160,8 @@ Use your favorite code editor.
 
 ## CLI spell checker
 
-![bg vertical left 90% ](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck.png)
-![bg 90% ](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck.png)
+
+![bg 90% ](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck_code.png)
 
 - [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 - [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
@@ -173,7 +173,7 @@ Use your favorite code editor.
 ---
 # CI: Testing (3)
 
-![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
+![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
 
 ## 404 links
 
@@ -181,7 +181,7 @@ Use your favorite code editor.
 
 ---
 
-![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/style-vale.jpg)
+![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/style-vale.jpg)
 
 # CI: Testing (4)
 
