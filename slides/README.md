@@ -222,7 +222,7 @@ No need for programmatic language, just use Markdown
 <!--
 Speaker: Laurent
 
-Most of the integrated developement environments (IDE) can be enhanced with multiple plugins. Here is a short list of what we used to use.
+Most of the integrated development environments (IDE) can be enhanced with multiple plugins. Here is a short list of what we used to use.
 -->
 ---
 ![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/codespaces.jpg)
@@ -249,7 +249,7 @@ Most of the integrated developement environments (IDE) can be enhanced with mult
 
 <!--
 
-- Jekyll : Based on Ruby, it is hard to configure for a non developper users especially under windows => hard to contribute
+- Jekyll : Based on Ruby, it is hard to configure for a non developer users especially under windows => hard to contribute
 - Hugo:
   - HTML + go template for documentation
   - Far from standard markdown => hard for non dev users
@@ -260,7 +260,7 @@ Most of the integrated developement environments (IDE) can be enhanced with mult
   - Presenter view
   - Template with CSS
   - Extensible
-  - Output pptx, pdf, png, jpeg
+  - Output PPTX, PDF, PNG, JPEG
 - MkDocs:
   - Follow Markdown syntax
   - Closest to plain markdown, great for tech docs
