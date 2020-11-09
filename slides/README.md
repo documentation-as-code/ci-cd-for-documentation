@@ -76,7 +76,7 @@ Service catalog:
 -->
 ---
 
-![bg 100% left](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-documentation-mkdocs.gif)
+![bg 100% right](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-documentation-mkdocs.gif)
 
 # Service documentation
 With [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/)
@@ -190,7 +190,7 @@ No need for programmatic language, just use Markdown
 -->
 
 ---
-![bg left 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
+![bg right 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
 # Authoring (1)
 
 ## Pimp your editor with extensions
@@ -285,7 +285,7 @@ We use linters to check code "doc" quality.
 
 ## CLI spell checker
 
-![bg 90% left](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck_code.png)
+![bg 90% right](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck_code.png)
 
 - [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 - [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
