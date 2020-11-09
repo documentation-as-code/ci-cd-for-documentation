@@ -8,6 +8,11 @@ style: |
     bottom: 7px;
   }
   section header a { color: white;}
+  video.inslide {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+  }
 paginate: false
 footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nbsp; [github/angegar](https://github.com/angegar)'
 ---
@@ -135,6 +140,19 @@ Because:
 <!--
 speaker: Olivier
 
+-->
+---
+<video loop class="inslide" src="gource.mp4" autoplay muted />
+
+<!--
+![bg 73%](gource.gif)
+speaker: Olivier
+
+In summary, we needed to build great documentation, at scale, battle tested and ensure it would not break over time.
+
+Looks like code to us!
+
+This is a visualization of our service catalog repository documentation.
 -->
 
 ---
@@ -344,7 +362,7 @@ GitHub, GitLab, Bitbucket
 <!--
 Speaker: Laurent
 
-We have beend using GitHub template to ease the creation of DocAsCode
+We have been using GitHub template to ease the creation of Documentation As Code
 
 -->
 ---
