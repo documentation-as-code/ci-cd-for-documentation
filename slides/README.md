@@ -14,7 +14,7 @@ style: |
     height: 70%;
   }
 paginate: false
-footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nbsp; [github/angegar](https://github.com/angegar)'
+footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [github/angegar](https://github.com/angegar)'
 ---
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/title.jpg')-->
 <br/>
@@ -26,26 +26,62 @@ footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nb
 ## For documentation
 
 <!-- 
-speaker: Olivier & Laurent
-Hello, Laurent and I are going to talk about "Documentation as Code" and more specifically CI and CD for documentation.
+speaker: Olivier
 
-(NOTE: add faces / OBS)
+Thank you. Today, Laurent and I are going to talk about "Documentation as Code" and more specifically CI and CD for documentation.
+
+But first, let us introduce ourselves:
+
+Speakers: Olivier & Laurent
+- Short intro
+
+(NOTE: embed Olivier & Laurent's faces / OBS)
+
+-->
+
+---
+<!--backgroundImage: url('dxc.jpg')-->
+
+<!--
+
+<!-- 
+speaker: Olivier
+
+Laurent and I both work for DXC technology customers. DXC technology is a global IT services leader.
+
+With 19.6B$ of revenues, 6000 customers and 138000 employees across 70 countries, we are - in many dimensions - big.
 
 -->
 
 ---
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/simple.jpg')-->
 
-Our story and how we solved our problems
+The quest to great documentation
 
-# 🏰🦄🤴👸🐴👻⚔
+# 🏰🦄🤴👸🐴👻⚔🗡🏴‍☠️
 
 <!-- 
 
-This presentation is an experience report. We have been doing documentation as code for a long time now, and we wanted to share
-- the challenges that we solve
-- some recipes
-- as we go, issues and caveats
+Back to this presentation. This presentation is an experience report. 
+We are on a quest: the quest to great documentation.
+
+Previously, 
+- our documentation was the last thing we would do,
+- it had spelling and syntax mistakes,
+- we were using the passive voice, but sometimes the active voice
+- it was often inacurrate,
+- a few were able to correct anything so we had to contact them through email,
+- several authors could not work on the same piece of documentation without going through lengthy merges,
+- and links would break very often without us even knowing.
+
+Today, it's a very different situation
+- we have one service catalog and 174 services documented
+- documentation readers can contribute to the documentation using a Pull Request
+- documentation changes go through a series of tests and gates
+- our documentation is bigger yet more thorough and precise than ever
+- It has the same look & feel
+- it's written in the same style
+
 -->
 
 ---
@@ -73,6 +109,10 @@ With [Hugo](https://gohugo.io/)
 
 <!--
 Speaker: Olivier
+
+We have 2 types of documentation: 
+- Service catalog
+- Service documentation
 
 Service catalog:
 - Marketing / catalog site: mix of text, benefits, highlights, videos
@@ -114,12 +154,19 @@ Because:
 - Who reads what (analytics)
 
 <!--
-- Documentation next to the code
-- Lightning fast to browse (static sites)
-- Easier to contribute to / keep up-to-date
-- Engineer documentation
-- Battle test documentation
-- Who reads what (analytics)
+Documentation next to the code:
+  - Versions can be aligned with code versions
+  - Developers use a workflow that they know
+  - Tech writers / Product owners learn the developer workflow
+Lightning fast to browse (static sites)
+  - Comparing to Wordpress/Drupal/Confluence type solutions
+  - More secure (no DB to hack)
+  - Portable (even offline)
+Easier to contribute to / keep up-to-date
+  - The pull request / merge request workflow fully applies
+Engineer documentation
+Battle test documentation
+Who reads what (analytics)
   - "Is this page useful?"
   - Analytics: like Google Analytics or Open Source alternative: Matomo
   - Reader journey, what is useful
@@ -142,10 +189,9 @@ speaker: Olivier
 
 -->
 ---
-<video loop class="inslide" src="gource.mp4" autoplay muted />
+<video loop class="inslide" src="https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/gource.mp4" autoplay muted />
 
 <!--
-![bg 73%](gource.gif)
 speaker: Olivier
 
 In summary, we needed to build great documentation, at scale, battle tested and ensure it would not break over time.
