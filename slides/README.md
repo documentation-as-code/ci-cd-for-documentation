@@ -160,7 +160,6 @@ Use your favorite code editor.
 
 ## CLI spell checker
 
-
 ![bg 90% ](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/spellcheck_code.png)
 
 - [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
