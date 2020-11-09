@@ -331,7 +331,7 @@ GitHub offers an online VSCode instance attached to your GitHub repository. The 
 Speaker: Laurent
 
 Use your favorite orchestration tool to deploy your documentation.
-A lot of orchestrators now offer predefine features to ease your pipeline;
+Those tools now offer predefined features to ease your pipeline;
 
 We will see a set of GitHub Market Actions used in this documentation pipeline.
 -->
