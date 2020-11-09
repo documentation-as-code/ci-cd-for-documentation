@@ -44,7 +44,7 @@ Speakers: Olivier & Laurent
 
 <!--
 
-<!-- 
+<!--
 speaker: Olivier
 
 Laurent and I both work for DXC technology customers. DXC technology is a global IT services leader.
