@@ -300,8 +300,6 @@ We use linters to check code "doc" quality.
 ---
 # CI: Link checker
 
-![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
-
 ![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
 
 <!-- 
