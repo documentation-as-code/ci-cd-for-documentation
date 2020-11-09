@@ -69,7 +69,7 @@ Previously,
 - our documentation was the last thing we would do,
 - it had spelling and syntax mistakes,
 - we were using the passive voice, but sometimes the active voice
-- it was often inacurrate,
+- it was often inaccurate,
 - a few were able to correct anything so we had to contact them through email,
 - several authors could not work on the same piece of documentation without going through lengthy merges,
 - and links would break very often without us even knowing.
@@ -159,7 +159,7 @@ Documentation next to the code:
   - Developers use a workflow that they know
   - Tech writers / Product owners learn the developer workflow
 Lightning fast to browse (static sites)
-  - Comparing to Wordpress/Drupal/Confluence type solutions
+  - Comparing to WordPress/Drupal/Confluence type solutions
   - More secure (no DB to hack)
   - Portable (even offline)
 Easier to contribute to / keep up-to-date
