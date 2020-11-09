@@ -2,14 +2,14 @@
 marp: true
 theme: default
 style: |
-  header {
+  footer {
     position: absolute;
-    left: 50%;
-    top: 33px;
+    #left: 50%;
+    bottom: 7px;
   }
   section header a { color: white;}
-paginate: true
-header: '[🐤 @ojacques2](https://twitter.com/ojacques2) & laurent.gil@dxc.com'
+paginate: false
+footer: '[github/ojacques](https://github.com/ojacques) &nbsp; &nbsp; &nbsp; &nbsp; [github/angegar](https://github.com/angegar)'
 ---
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/title.jpg')-->
 <br/>
@@ -143,7 +143,7 @@ Use your favorite code editor.
 - Azure DevOps
 
 ---
-# CI: Testing (1)
+# CI: Linter
 
 ## CLI linter
 
@@ -156,7 +156,7 @@ Use your favorite code editor.
 - [VS Code markdownlint extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
   
 ---
-# CI: Testing(2)
+# CI: Spell Checker
 
 ## CLI spell checker
 
@@ -170,7 +170,9 @@ Use your favorite code editor.
 - [VS Code code-spell-checker extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 ---
-# CI: Testing (3)
+# CI: Link checker
+
+![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
 
 ![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
 
