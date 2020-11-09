@@ -1,10 +1,14 @@
+Analytics
 AWS
 bg
 Codespaces
+cron
 DRY
 GIT
 GitHub
 github
+IntelliJ
 markdownlint
 Marp
 Netlify
+VSCode
