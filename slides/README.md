@@ -40,7 +40,7 @@ Speakers: Olivier & Laurent
 -->
 
 ---
-<!--backgroundImage: url('dxc.jpg')-->
+<!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/dxc.jpg')-->
 
 <!--
 
