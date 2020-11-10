@@ -80,7 +80,7 @@ Today, it's a very different situation
 - documentation readers can contribute to the documentation using a Pull Request
 - we can report bugs and fix them
 - documentation changes go through a series of tests and gates
-- it is bigger yet more thorough and precise than ever
+- it's bigger yet more thorough and precise than ever
 - It has the same look & feel
 - it's written in the same style
 
@@ -134,7 +134,7 @@ With [MkDocs](https://www.mkdocs.org/) +
 <!--
 Speaker: Olivier
 
-The documentation for each service leverages Mkdocs which we love because it is very close to markdown and does not require a separate git repository.
+The documentation for each service leverages Mkdocs which we love because it's very close to markdown and does not require a separate git repository.
 
 -->
 
@@ -153,11 +153,11 @@ Speaker: Olivier
 
 Because:
 
-- It is fast, secure and cheap (static sites)
-- It is easier to contribute to / keep up-to-date
-- It is battle tested
-- It is engineered
-- It can be monitored (think analytics)
+- It's fast, secure and cheap (static sites)
+- It's easier to contribute to / keep up-to-date
+- It's battle tested
+- It's engineered
+- We can monitor it (think analytics)
 
 <!--
 Fast, secure and cheap (static sites)
@@ -301,7 +301,7 @@ GitHub offers an online VSCode instance attached to your GitHub repository. The 
 
 <!--
 
-- Jekyll : Based on Ruby, it is hard to configure for a non developer users especially under windows => hard to contribute
+- Jekyll : Based on Ruby, it's hard to configure for a non developer users especially under windows => hard to contribute
 - Hugo:
   - HTML + go template for documentation
   - Far from standard markdown => hard for non dev users
@@ -431,6 +431,7 @@ You don't have to spin up a virtual machine or server to host your documentation
 # Quick starts
 
 Making it easy with:
+
 - [GitHub templates](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository)
 - [GitLab project templates](https://docs.gitlab.com/ee/gitlab-basics/create-project.html#project-templates)
 
