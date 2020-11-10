@@ -504,7 +504,6 @@ video.inslide {
 <li><a href="https://github.com/rojopolis/spellcheck-github-actions">spellcheck-github-actions</a></li>
 <li><a href="https://github.com/tbroadley/spellchecker-cli">spellchecker-cli</a></li>
 </ul>
-
 <h2>Editor spell checker</h2>
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">VS Code code-spell-checker extension</a></li>
@@ -713,9 +712,11 @@ Looks like code to us!
 
 This is a visualization of our service catalog repository documentation.</p></div><div class="bespoke-marp-note" data-index="10" tabindex="0"><p>Speaker: Olivier</p></div><div class="bespoke-marp-note" data-index="11" tabindex="0"><p>Speaker: Laurent</p></div><div class="bespoke-marp-note" data-index="12" tabindex="0"><p>Speaker: Laurent
 
-No need for programmatic language, just use Markdown</p></div><div class="bespoke-marp-note" data-index="13" tabindex="0"><p>Speaker: Laurent
+There is no need to have developer skills, the Markdown syntax is easy to use.</p></div><div class="bespoke-marp-note" data-index="13" tabindex="0"><p>Speaker: Laurent
 
-Most of the integrated development environments (IDE) can be enhanced with multiple plugins. Here is a short list of what we used to use.</p></div><div class="bespoke-marp-note" data-index="15" tabindex="0"><p>- Jekyll : Based on Ruby, it is hard to configure for a non developer users especially under windows =&gt; hard to contribute
+Most of the integrated development environments (IDE) can be enhanced with multiple plugins. Here is a short list of what we used to use.</p></div><div class="bespoke-marp-note" data-index="14" tabindex="0"><p>Speaker: Laurent
+
+GitHub offers an online VSCode instance attached to your GitHub repository. The Codespaces feature allows all the developer to share the same set of extensions as this configuration is automatically shared across the development environment attached to the project.</p></div><div class="bespoke-marp-note" data-index="15" tabindex="0"><p>- Jekyll : Based on Ruby, it is hard to configure for a non developer users especially under windows =&gt; hard to contribute
 - Hugo:
   - HTML + go template for documentation
   - Far from standard markdown =&gt; hard for non dev users
@@ -730,11 +731,18 @@ Most of the integrated development environments (IDE) can be enhanced with multi
 - MkDocs:
   - Follow Markdown syntax
   - Closest to plain markdown, great for tech docs
-  - Can integrate native HTML web page =&gt; Can integrate Marp outputs</p></div><div class="bespoke-marp-note" data-index="17" tabindex="0"><p>We use linters to check code &quot;doc&quot; quality.
+  - Can integrate native HTML web page =&gt; Can integrate Marp outputs</p></div><div class="bespoke-marp-note" data-index="16" tabindex="0"><p>Speaker: Laurent
+
+Use your favorite orchestration tool to deploy your documentation.
+Those tools now offer predefined features to ease your pipeline;
+
+We will see a set of GitHub Market Actions used in this documentation pipeline.</p></div><div class="bespoke-marp-note" data-index="17" tabindex="0"><p>We use linters to check code &quot;doc&quot; quality.
 
 2 types of linters
 - CLI: to be integrated in the pipeline 
-- Editor: check syntax as you type</p></div><div class="bespoke-marp-note" data-index="18" tabindex="0"><p></p></div><div class="bespoke-marp-note" data-index="19" tabindex="0"><p>Links must be checked regularly (cron) as they break without you doing any change.</p></div><div class="bespoke-marp-note" data-index="22" tabindex="0"><p>Speaker: Laurent
+- Editor: check syntax as you type, before commit and push</p></div><div class="bespoke-marp-note" data-index="18" tabindex="0"><p>Identically, we can find CLI spell checker and Editor one
+
+Work with direction of exception and custom dictionary</p></div><div class="bespoke-marp-note" data-index="19" tabindex="0"><p>Links must be checked regularly (cron) as they break without you doing any change.</p></div><div class="bespoke-marp-note" data-index="20" tabindex="0"><p>Used to ensure your a vocabulary style guide.</p></div><div class="bespoke-marp-note" data-index="21" tabindex="0"><p>You don't have to spin up a virtual machine or server to host your documentation site. Major Source Code Management applications already host web pages.</p></div><div class="bespoke-marp-note" data-index="22" tabindex="0"><p>Speaker: Laurent
 
 We have been using GitHub template to ease the creation of Documentation As Code</p></div><script>!function(){"use strict";var e=function(e,t){var n,r=1===(e.parent||e).nodeType?e.parent||e:document.querySelector(e.parent||e),a=[].filter.call("string"==typeof e.slides?r.querySelectorAll(e.slides):e.slides||r.children,(function(e){return"SCRIPT"!==e.nodeName})),s={},i=function(e,t){return(t=t||{}).index=a.indexOf(e),t.slide=e,t},o=function(e,t){s[e]=(s[e]||[]).filter((function(e){return e!==t}))},l=function(e,t){return(s[e]||[]).reduce((function(e,n){return e&&!1!==n(t)}),!0)},c=function(e,t){a[e]&&(n&&l("deactivate",i(n,t)),n=a[e],l("activate",i(n,t)))},d=function(e,t){var r=a.indexOf(n)+e;l(e>0?"next":"prev",i(n,t))&&c(r,t)},u={off:o,on:function(e,t){return(s[e]||(s[e]=[])).push(t),o.bind(null,e,t)},fire:l,slide:function(e,t){if(!arguments.length)return a.indexOf(n);l("slide",i(a[e],t))&&c(e,t)},next:d.bind(null,1),prev:d.bind(null,-1),parent:r,slides:a,destroy:function(e){l("destroy",i(n,e)),s={}}};return(t||[]).forEach((function(e){e(u)})),n||c(0),u};function t(e){e.parent.classList.add("bespoke-marp-parent"),e.slides.forEach(e=>e.classList.add("bespoke-marp-slide")),e.on("activate",t=>{const n=t.slide,r=!n.classList.contains("bespoke-marp-active");e.slides.forEach(e=>{e.classList.remove("bespoke-marp-active"),e.setAttribute("aria-hidden","true")}),n.classList.add("bespoke-marp-active"),n.removeAttribute("aria-hidden"),r&&(n.classList.add("bespoke-marp-active-ready"),document.body.clientHeight,n.classList.remove("bespoke-marp-active-ready"))})}function n(e){let t=0,n=0;Object.defineProperty(e,"fragments",{enumerable:!0,value:e.slides.map(e=>[null,...e.querySelectorAll("[data-marpit-fragment]")])});const r=r=>void 0!==e.fragments[t][n+r],a=(r,a)=>{t=r,n=a,e.fragments.forEach((e,t)=>{e.forEach((e,n)=>{if(null==e)return;const s=t<r||t===r&&n<=a;e.setAttribute("data-bespoke-marp-fragment",s?"active":"inactive"),t===r&&n===a?e.setAttribute("data-bespoke-marp-current-fragment","current"):e.removeAttribute("data-bespoke-marp-current-fragment")})}),e.fragmentIndex=a;const s={slide:e.slides[r],index:r,fragments:e.fragments[r],fragmentIndex:a};e.fire("fragment",s)};e.on("next",({fragment:s=!0})=>{if(s){if(r(1))return a(t,n+1),!1;const s=t+1;e.fragments[s]&&a(s,0)}else{const r=e.fragments[t].length;if(n+1<r)return a(t,r-1),!1;const s=e.fragments[t+1];s&&a(t+1,s.length-1)}}),e.on("prev",({fragment:s=!0})=>{if(r(-1)&&s)return a(t,n-1),!1;const i=t-1;e.fragments[i]&&a(i,e.fragments[i].length-1)}),e.on("slide",({index:t,fragment:n})=>{let r=0;if(void 0!==n){const a=e.fragments[t];if(a){const{length:e}=a;r=-1===n?e-1:Math.min(Math.max(n,0),e-1)}}a(t,r)}),a(0,0)}var r,a,s=(function(e){
 /*!
