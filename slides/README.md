@@ -43,8 +43,6 @@ Speakers: Olivier & Laurent
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/dxc.jpg')-->
 
 <!--
-
-<!--
 speaker: Olivier
 
 Laurent and I both work for DXC technology customers. DXC technology is a global IT services leader.
@@ -56,29 +54,33 @@ With 19.6B$ of revenues, 6000 customers and 138000 employees across 70 countries
 ---
 <!--backgroundImage: url('https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/simple.jpg')-->
 
-The quest to great documentation
+The quest for great documentation
 
 # 🏰🦄🤴👸🐴👻⚔🗡🏴‍☠️
 
 <!-- 
 
-Back to this presentation. This presentation is an experience report. 
-We are on a quest: the quest to great documentation.
+Back to this presentation. 
+
+This presentation is an experience report, because we have learned so much from others through this format.
+
+This presentation is about our quest: the quest for great documentation.
 
 Previously, 
 - our documentation was the last thing we would do,
 - it had spelling and syntax mistakes,
 - we were using the passive voice, but sometimes the active voice
 - it was often inaccurate,
-- a few were able to correct anything so we had to contact them through email,
+- a few were able to fix it and we had to contact them through email,
 - several authors could not work on the same piece of documentation without going through lengthy merges,
 - and links would break very often without us even knowing.
 
 Today, it's a very different situation
 - we have one service catalog and 174 services documented
 - documentation readers can contribute to the documentation using a Pull Request
+- we can report bugs and fix them
 - documentation changes go through a series of tests and gates
-- our documentation is bigger yet more thorough and precise than ever
+- it is bigger yet more thorough and precise than ever
 - It has the same look & feel
 - it's written in the same style
 
@@ -90,7 +92,11 @@ Today, it's a very different situation
 
 ## (as code)
 
-<!-- 
+- 1 service catalog: the entry point
+- 174 services: technical documentation
+- 630 contributors
+
+<!--
 
 The context for the experience report is our own company (but we do that with our customers too):
 - A platform which provides intelligence, orchestration, and automation capabilities to our managed service offerings
@@ -102,7 +108,7 @@ The context for the experience report is our own company (but we do that with ou
 
 ---
 
-![bg 100% right](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-catalog-hugo.gif)
+![bg 95% right:62%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-catalog-hugo.gif)
 
 # Service catalog
 With [Hugo](https://gohugo.io/)
@@ -116,18 +122,19 @@ We have 2 types of documentation:
 
 Service catalog:
 - Marketing / catalog site: mix of text, benefits, highlights, videos
-- We use Hugo
-  - shortcodes: like macro, for documentation. Ensures uniformity
 -->
 ---
 
-![bg 100% right](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-documentation-mkdocs.gif)
+![bg 95% right:62%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/service-documentation-mkdocs.gif)
 
 # Service documentation
-With [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/)
+With [MkDocs](https://www.mkdocs.org/) +
+[material theme](https://squidfunk.github.io/mkdocs-material/)
 
 <!--
 Speaker: Olivier
+
+The documentation for each service leverages Mkdocs which we love because it is very close to markdown and does not require a separate git repository.
 
 -->
 
@@ -142,31 +149,25 @@ Speaker: Olivier
 ---
 # 🤯
 
-## Microsoft, GitHub, GitLab, AWS all use "Documentation as code"
+## DXC, Microsoft, GitHub, GitLab, AWS all use "Documentation as code"
 
 Because:
 
-- Documentation next to the code
-- Lightning fast to browse (static sites)
-- Easier to contribute to / keep up-to-date
-- Engineer documentation
-- Battle test documentation
-- Who reads what (analytics)
+- It is fast, secure and cheap (static sites)
+- It is easier to contribute to / keep up-to-date
+- It is battle tested
+- It is engineered
+- It can be monitored (think analytics)
 
 <!--
-Documentation next to the code:
-  - Versions can be aligned with code versions
-  - Developers use a workflow that they know
-  - Tech writers / Product owners learn the developer workflow
-Lightning fast to browse (static sites)
+Fast, secure and cheap (static sites)
   - Comparing to WordPress/Drupal/Confluence type solutions
   - More secure (no DB to hack)
   - Portable (even offline)
 Easier to contribute to / keep up-to-date
   - The pull request / merge request workflow fully applies
-Engineer documentation
 Battle test documentation
-Who reads what (analytics)
+Monitoring:
   - "Is this page useful?"
   - Analytics: like Google Analytics or Open Source alternative: Matomo
   - Reader journey, what is useful
@@ -178,9 +179,8 @@ Who reads what (analytics)
 
 - Common look & feel
 - Common voice
-- Lowering the bar for Tech Writers
 - DRY: Don't Repeat Yourself
-- Diagrams
+- Diagrams: what changes?
 - Broken links
 - Publishing
 
@@ -194,11 +194,12 @@ speaker: Olivier
 <!--
 speaker: Olivier
 
+This video is a visualization of our service catalog repository documentation, as it evolves.
+
 In summary, we needed to build great documentation, at scale, battle tested and ensure it would not break over time.
 
 Looks like code to us!
 
-This is a visualization of our service catalog repository documentation.
 -->
 
 ---
@@ -245,7 +246,7 @@ Use your favorite code editor:
 
 - [IntelliJ](https://www.jetbrains.com/help/idea/markdown.html#navigation)
 - [Eclipse](https://marketplace.eclipse.org/content/markdown-text-editor)
-- [VSCode](https://code.visualstudio.com/docs/languages/markdown)
+- [VSCode](https://code.visualstudio.com/docs/languages/markdown) 👈
 
 <!--
 Speaker: Laurent
@@ -258,13 +259,12 @@ There is no need to have developer skills, the Markdown syntax is easy to use.
 ![bg right 90%](https://github.com/hediet/vscode-drawio/raw/master/docs/drawio-png.gif)
 # Authoring (1)
 
-## Pimp your editor with extensions
+## Add editor extensions
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (for syntax)
 - [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) (for drawings)
 - [PlantUML](https://github.com/qjebbs/vscode-plantuml) (for diagrams as code)
 - [Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) (for slides)
-- ...
 
 <!--
 Speaker: Laurent
@@ -295,9 +295,9 @@ GitHub offers an online VSCode instance attached to your GitHub repository. The 
 ## Pick a tool
 
 - [Jekyll](https://jekyllrb.com/) 🤐
-- [Hugo](https://gohugo.io/): powerful, blazing fast
+- [Hugo](https://gohugo.io/): powerful, blazing fast 👈
 - [Marp](https://marp.app/): slides as code in markdown
-- [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/)
+- [MkDocs](https://www.mkdocs.org/) + [material theme](https://squidfunk.github.io/mkdocs-material/) 👈
 
 <!--
 
@@ -305,7 +305,9 @@ GitHub offers an online VSCode instance attached to your GitHub repository. The 
 - Hugo:
   - HTML + go template for documentation
   - Far from standard markdown => hard for non dev users
+  - shortcodes: like macro, for documentation. Ensures uniformity
   - Recommended if you need to have multiple page template in your web site
+
 - Marp:
   - Excellent to generate slide deck
   - Follow Markdown syntax
@@ -323,7 +325,7 @@ GitHub offers an online VSCode instance attached to your GitHub repository. The 
 
 - GitHub Actions
 - GitLab CI
-- Jenkins (`Jenkinsfile`)
+- Jenkins (`Jenkinsfile`) 👈
 - AWS code pipeline
 - Azure DevOps
 
@@ -342,7 +344,7 @@ We will see a set of GitHub Market Actions used in this documentation pipeline.
 
 - [github super-linter](https://github.com/github/super-linter)
 - [markdownlint](https://github.com/DavidAnson/markdownlint)
-![bg right 90%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/linter.png)
+![bg right 80%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/linter.png)
 
 ## Editor linter
 
@@ -380,7 +382,7 @@ Work with direction of exception and custom dictionary
 ---
 # CI: Link checker
 
-![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
+![bg right:62% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
 
 ## 404 links
 
@@ -415,17 +417,22 @@ GitHub, GitLab, Bitbucket
 
 ## Web hosting
 
-[GitHub pages](https://pages.github.com/), [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/), [Netlify](https://www.netlify.com/), an AWS S3 bucket.
+- [GitHub pages](https://pages.github.com/) 👈
+- [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/)
+- [Netlify](https://www.netlify.com/)
+- An AWS S3 bucket 👈
 
 <!--
 
 You don't have to spin up a virtual machine or server to host your documentation site. Major Source Code Management applications already host web pages.
 -->
 ---
-![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
-# Spread practices
+![bg right:58% 72%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
+# Quick starts
 
+Making it easy with:
 - [GitHub templates](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository)
+- [GitLab project templates](https://docs.gitlab.com/ee/gitlab-basics/create-project.html#project-templates)
 
 <!--
 Speaker: Laurent
