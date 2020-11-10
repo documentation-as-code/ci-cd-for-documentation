@@ -250,7 +250,8 @@ Use your favorite code editor:
 <!--
 Speaker: Laurent
 
-No need for programmatic language, just use Markdown
+There is no need to have developer skills, the Markdown syntax is easy to use.
+
 -->
 
 ---
@@ -283,6 +284,11 @@ Most of the integrated development environments (IDE) can be enhanced with multi
   `git reset origin/main --hard`
 - Shared extensions across development environments
 
+<!--
+Speaker: Laurent
+
+GitHub offers an online VSCode instance attached to your GitHub repository. The Codespaces feature allows all the developer to share the same set of extensions as this configuration is automatically shared across the development environment attached to the project.
+-->
 ---
 # Authoring (3)
 
@@ -321,6 +327,14 @@ Most of the integrated development environments (IDE) can be enhanced with multi
 - AWS code pipeline
 - Azure DevOps
 
+<!--
+Speaker: Laurent
+
+Use your favorite orchestration tool to deploy your documentation.
+Those tools now offer predefined features to ease your pipeline;
+
+We will see a set of GitHub Market Actions used in this documentation pipeline.
+-->
 ---
 # CI: Linter
 
@@ -335,12 +349,11 @@ Most of the integrated development environments (IDE) can be enhanced with multi
 - [VS Code markdownlint extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 <!--
-
 We use linters to check code "doc" quality.
 
 2 types of linters
 - CLI: to be integrated in the pipeline 
-- Editor: check syntax as you type
+- Editor: check syntax as you type, before commit and push
 
 -->
 
@@ -354,28 +367,29 @@ We use linters to check code "doc" quality.
 - [spellcheck-github-actions](https://github.com/rojopolis/spellcheck-github-actions)
 - [spellchecker-cli](https://github.com/tbroadley/spellchecker-cli)
 
-<!-- 
-
--->
 ## Editor spell checker
 
 - [VS Code code-spell-checker extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+<!-- 
+Identically, we can find CLI spell checker and Editor one
+
+Work with direction of exception and custom dictionary
+-->
 
 ---
 # CI: Link checker
 
 ![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/markdown-link-check.jpg)
 
-<!-- 
-
-Links must be checked regularly (cron) as they break without you doing any change.
-
--->
-
 ## 404 links
 
 [markdown-link-check](https://github.com/tcort/markdown-link-check)
 
+<!-- 
+Links must be checked regularly (cron) as they break without you doing any change.
+
+-->
 ---
 
 ![bg right:65% 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/style-vale.jpg)
@@ -386,6 +400,10 @@ Links must be checked regularly (cron) as they break without you doing any chang
 
 [Vale](https://github.com/errata-ai/vale)
 
+<!--
+
+Used to ensure your a vocabulary style guide.
+-->
 ---
 # Publishing (CD)
 
@@ -399,6 +417,10 @@ GitHub, GitLab, Bitbucket
 
 [GitHub pages](https://pages.github.com/), [GitLab pages](https://docs.gitlab.com/ee/user/project/pages/), [Netlify](https://www.netlify.com/), an AWS S3 bucket.
 
+<!--
+
+You don't have to spin up a virtual machine or server to host your documentation site. Major Source Code Management applications already host web pages.
+-->
 ---
 ![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
 # Spread practices
