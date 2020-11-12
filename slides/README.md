@@ -37,6 +37,8 @@ Speakers: Olivier & Laurent
 
 (NOTE: embed Olivier & Laurent's faces / OBS)
 
+Laurent:
+Hello I am Laurent, I also work for DXC Technology where I am acting internally as a DevOps Coach and externally as a CI and CD expert. I hope we will manage to show you the benefits of the CI and CD practices for documentation as code, as well as how easy it is to do it.
 -->
 
 ---
@@ -234,6 +236,10 @@ Speaker: Olivier
 
 <!--
 Speaker: Laurent
+
+Hi, during the second part of the talk, I will give you a brief overview of the state of the art about CI/CD tools for documentation as code.
+
+Let's start with the development environment, which environment is required ?
 -->
 
 ---
@@ -250,6 +256,8 @@ Use your favorite code editor:
 
 <!--
 Speaker: Laurent
+
+To write the documentation we use the Markdown language. Yes, I said language. Indeed, you write your documentation in your native language then you surround it with decorators which will modify the format.
 
 There is no need to have developer skills, the Markdown syntax is easy to use.
 
@@ -427,10 +435,8 @@ GitHub, GitLab, Bitbucket
 You don't have to spin up a virtual machine or server to host your documentation site. Major Source Code Management applications already host web pages.
 -->
 ---
-![bg right:58% 72%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
-# Quick starts
-
-Making it easy with:
+![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
+# Quick start
 
 - [GitHub templates](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository)
 - [GitLab project templates](https://docs.gitlab.com/ee/gitlab-basics/create-project.html#project-templates)
