@@ -435,8 +435,8 @@ GitHub, GitLab, Bitbucket
 You don't have to spin up a virtual machine or server to host your documentation site. Major Source Code Management applications already host web pages.
 -->
 ---
-![bg right 95%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
-# Quick start
+![bg right:58% 72%](https://github.com/documentation-as-code/ci-cd-for-documentation/raw/main/slides/github_template.png)
+# Quick starts
 
 - [GitHub templates](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-template-repository)
 - [GitLab project templates](https://docs.gitlab.com/ee/gitlab-basics/create-project.html#project-templates)
